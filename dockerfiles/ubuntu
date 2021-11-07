@@ -1,0 +1,3 @@
+FROM gns3/ubuntu:focal
+RUN apt-get update
+RUN apt-get install netwox iproute2 -y
